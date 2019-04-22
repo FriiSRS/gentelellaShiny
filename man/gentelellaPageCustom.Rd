@@ -33,7 +33,7 @@ if(interactive()){
 
  shinyApp(
   ui = gentelellaPageCustom(
-   title = "Shiny Gentelella",
+   title = "TASA Analytics",
    navbar = gentelellaNavbar(
     navbarItems = notif(
      id = "menunotif",

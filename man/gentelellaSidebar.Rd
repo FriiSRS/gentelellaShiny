@@ -5,7 +5,7 @@
 \title{Create a Gentelella dashboard sidebar}
 \usage{
 gentelellaSidebar(..., site_title = shiny::HTML(paste(shiny::icon("paw"),
-  "Shiny Gentelella")), url = NULL, fixed = FALSE, footer = NULL)
+  "Blending System")), url = NULL, fixed = FALSE, footer = NULL)
 }
 \arguments{
 \item{...}{Items to place in the sidebar such as \link{sidebarMenu}, \link{sidebarProfile}}

@@ -4,8 +4,8 @@
 \alias{gentelellaPage}
 \title{Render a gentellaPage in ui.R}
 \usage{
-gentelellaPage(..., title_tag = "Gentelella Shiny",
-  site_title = a(class = "site_title", icon("paw"), span("Shiny HTML")),
+gentelellaPage(..., title_tag = "TASA Analytics",
+  site_title = a(class = "site_title", icon("paw"), span("Blending System")),
   menuItems = NULL, footer = NULL, tracking = NULL)
 }
 \arguments{
