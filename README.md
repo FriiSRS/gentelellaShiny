@@ -9,7 +9,7 @@
 ## Install
 
 ```r
-devtools::install_github("MarkEdmondson1234/gentelellaShiny")
+devtools::install_github("FriiSRS/gentelellaShiny")
 ```
 
 ## Features
