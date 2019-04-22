@@ -12,7 +12,7 @@
 #' @import shiny
 gentelellaSidebar <- function(...,
                               site_title = shiny::HTML(paste(shiny::icon("paw"),
-                                                             "Shiny Gentelella")),
+                                                             "Blending System")),
                               url = NULL, fixed = FALSE, footer = NULL){
 
   sidebarCl <- "col-md-3 left_col"
