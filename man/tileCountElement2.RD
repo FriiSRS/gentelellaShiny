@@ -10,17 +10,11 @@ tileCountElement(value = 2500, tile_title = " Total Users", width = 3,
 \arguments{
 \item{value}{Count value}
 
-\item{change_value}{Change value}
-
-\item{going_well}{If TRUE then change_value is green, else red}
-
 \item{tile_title}{Title text}
 
 \item{width}{Width of tile in bootstrap}
 
 \item{icon_in}{Icon to show}
-
-\item{from_text}{Change text}
 
 \item{highlight}{color to highlight value}
 }
