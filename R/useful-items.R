@@ -894,6 +894,20 @@ tileCountElement <- function(value = 2500, change_value = "4%", going_well = TRU
   })
 }
 
+tileCountElement2 <- function(value = 2500, 
+                             tile_title = " Total Users", width = 3,
+                             icon_in = shiny::icon("user"), 
+                             highlight = NULL){
+  htmltools::withTags({
+    shiny::div(
+      class = paste0("col-md-",width," col-sm-4 col-xs-6 tile_stats_count"),
+      shiny::span(class = "count_top", icon_in, tile_title),
+      shiny::div(class = paste("count", highlight), value),
+      shiny::span(class = "count_bottom", bottom_icon, from_text)
+    )
+  })
+}
+
 #' tileCount UI
 #'
 #' Shiny Module for use with \link{tileCountElement}
